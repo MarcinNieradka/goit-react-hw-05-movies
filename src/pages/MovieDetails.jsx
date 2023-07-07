@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { fetchMovieDetails } from 'services';
 import { useLocation } from 'react-router-dom';
-// import { BackLink } from 'components/BackLink';
 import { Outlet } from 'react-router-dom';
 import { Suspense } from 'react';
 import { makeGenresList } from 'services/genres';
