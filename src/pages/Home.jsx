@@ -1,5 +1,6 @@
 import { MovieList } from 'components/MovieList';
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { fetchMovies } from 'services';
 
 export default function Home() {
