@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Container, CardWrapper, MovieName } from './MovieList.styled';
 
 export const MovieList = ({ data }) => {
   const location = useLocation();

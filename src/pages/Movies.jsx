@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { fetchSearchedMovieDetails } from 'services';
 import SearchBox from 'components/SearchBox';
-import { Link, useSearchParams, useLocation } from 'react-router-dom';
+import { useSearchParams, useLocation } from 'react-router-dom';
 import { MovieList } from 'components/MovieList';
 
 export default function Movies() {

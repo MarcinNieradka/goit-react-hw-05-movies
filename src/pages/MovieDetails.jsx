@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { fetchMovieDetails } from 'services';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 // import { BackLink } from 'components/BackLink';
 import { Outlet } from 'react-router-dom';
 import { Suspense } from 'react';
