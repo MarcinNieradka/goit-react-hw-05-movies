@@ -68,10 +68,10 @@ export default function MovieDetails() {
         </div>
       </StyledMovieContainer>
       <StyledLinksContainer>
-        <StyledNavLink to={`cast`} state={{ from: location.state.from }}>
+        <StyledNavLink to={`cast`} state={{ from: location.state?.from }}>
           Cast
         </StyledNavLink>
-        <StyledNavLink to={`reviews`} state={{ from: location.state.from }}>
+        <StyledNavLink to={`reviews`} state={{ from: location.state?.from }}>
           Reviews
         </StyledNavLink>
         {/* <StyledNavLink to={`cast`} {...location.state}>
