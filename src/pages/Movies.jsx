@@ -36,7 +36,7 @@ export default function Movies() {
       updateQueryString(query);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [query, location.pathname, setSearchParams]);
 
   useEffect(() => {
     if (!query && location.pathname === '/movies') {
