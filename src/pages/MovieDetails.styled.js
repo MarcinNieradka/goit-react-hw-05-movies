@@ -32,7 +32,7 @@ export const StyledNavLink = styled(NavLink)`
   transition-duration: 250ms;
 
   &.active,
-  :hover {
+  &:hover {
     color: white;
     background-color: #445566;
     box-shadow: 0px 0px 1px black;
